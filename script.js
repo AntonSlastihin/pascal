@@ -24,5 +24,7 @@ form.onsubmit = function (e){
         for (let i = 0; i < massive.length; i++){
             result.innerText += massive[i].join('  ') + "\n";
         }
+    } else {
+        result.innerText = "значение должно быть меньше 100";
     }
 }
